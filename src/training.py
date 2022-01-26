@@ -22,7 +22,7 @@ def training(config_path):
     EPOCHS=config["params"]["epochs"]
     VALIDATION_SET=(X_valid,y_valid)
 
-    history=model.fit(X_train,y_train, epochs=EPOCHS, validation_data=VALIDATION)
+    history=model.fit(X_train,y_train, epochs=EPOCHS, validation_data=VALIDATION_SET)
 
     # print(config)
 
