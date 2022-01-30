@@ -14,10 +14,11 @@ artifacts:
   model_dir: model
   plots-dir: plots
   cheakpoints_dir: cheakpoints
+  model_name: model.h5
 
 
 
 logs:
   logs-dir: logs_dir
   general_logs: general_logs
-  tensorboard_logs: tensorboards_logs
+  tensorboard_logs: tensorboard_logs
